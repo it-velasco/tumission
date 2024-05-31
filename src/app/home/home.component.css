@@ -1,0 +1,47 @@
+.subtitle {
+    color: black;
+}
+
+.large-image {
+    max-height: 75vh;
+}
+
+
+.large-caption {
+    background-color: rgba(39, 9, 172, 0.15);
+}
+
+.video-gif {
+    max-width: 100%;
+}
+
+/*
+VIDEO GIF
+*/
+.large-video {
+    max-width: 1024px;
+    height: auto;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.video-gif {
+    max-width: 100%;
+}
+/*
+.moveit {
+    transform: translateY(100px);
+    animation-name: animate-slideouttop;
+    animation-duration: 4s;
+}
+
+@keyframes animate-slideouttop {
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+}
+*/

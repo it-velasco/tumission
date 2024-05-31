@@ -1,0 +1,26 @@
+.videoBanner {
+  bottom: 0;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+
+.navbar-home {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  z-index: 1;
+}
+
+#logo-banner {
+  width: 60px;
+}
+
+
+

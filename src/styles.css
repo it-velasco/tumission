@@ -1,0 +1,146 @@
+html,
+body {
+  height: 100%;
+  font-family: 'Baloo 2', serif;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.fb-logo {
+  fill: white;
+}
+
+.button-bg {
+  color: white;
+  border: #3a84ac;
+  background: #3a84ac;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3550a0, #3a84ac, #83ccf1, #7ac14e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3550a0, #3a84ac, #83ccf1, #7ac14e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.sound-icon {
+  height: 30px;
+  width: 35px;
+  fill: white;
+}
+
+.arrow-icon {
+  height: 25px;
+  width: 35px;
+  fill: white;
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-iteration-count: 10;
+}
+
+.profile {
+  height: auto;
+  max-height: 90vh;
+  width: auto;
+
+  display: block;
+  margin: auto;
+  text-align: center;
+
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+@keyframes arrow {
+  from {
+    height: 25px;
+    width: 35px;
+  }
+
+  to {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+/* Grid */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+/* for iphone XR*/
+@media (min-width: 414px) and (max-width: 414px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(414px, 1fr));
+  }
+}
+
+/* for iphone 12PRO*/
+@media (min-width: 390px) and (max-width: 390px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+  }
+}
+
+/* for iphone SE*/
+@media (min-width: 375px) and (max-width: 375px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  }
+}
+
+/* for Pixel 5*/
+@media (min-width: 393px) and (max-width: 393px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(393px, 1fr));
+  }
+}
+
+/* for Galaxy S8*/
+@media (min-width: 360px) and (max-width: 360px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  }
+}
+
+/* for Galaxy S20 Ultra*/
+@media (min-width: 412px) and (max-width: 412px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(412px, 1fr));
+  }
+}
+
+/* for Galaxy Fold*/
+@media (min-width: 280px) and (max-width: 280px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+
+.mdc-button {
+  margin: 5px !important;
+}
+
+.mat-mdc-form-field {
+  width: 100%;
+}
+
+.content {
+  display: block !important;
+}
+
+a {
+  color: white !important;
+  padding: 1%;
+}
