@@ -22,5 +22,38 @@
   width: 60px;
 }
 
+.iframe-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+  /* 16:9 aspect ratio */
+  bottom: 0;
+  min-height: 100vh;
+  min-width: 100%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  min-height: 100vh;
+  min-width: 100%;
+}
 
 
+@media (orientation: landscape) {
+
+  /* Show horizontal iframe */
+  .iframe-wrapper.vertical {
+    display: none;
+  }
+}
+
+@media (orientation: portrait) {
+
+  /* Show vertical iframe */
+  .iframe-wrapper.horizontal {
+    display: none;
+  }
+}
